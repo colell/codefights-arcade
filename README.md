@@ -1,2 +1,2 @@
-# codefights-arcade
-A place for my answers to the CodeFights Arcade (Kotlin)
+# CodeFights Arcade (Kotlin)
+A place for my answers to the CodeFights Arcade
