@@ -27,7 +27,7 @@ fun main(args: Array<String>) {
         assertEquals(false, it)
     }
 
-    // 8.
+    // 8. Matrix Elements Sum
     matrixElementsSum(mutableListOf(
             mutableListOf(0, 1, 1, 2),
             mutableListOf(0, 5, 0, 0),
