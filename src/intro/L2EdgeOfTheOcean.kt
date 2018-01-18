@@ -1,41 +1,4 @@
-import kotlin.test.assertEquals
-
-
-fun main(args: Array<String>) {
-
-    // 4. Adjacent Elements Product
-    adjacentElementsProduct(mutableListOf(1,2,-5,35,2,8,12,7)).let {
-        println(it)
-        assertEquals(96, it)
-    }
-
-    // 5. Shape Area
-    shapeArea(3).let {
-        println(it)
-        assertEquals(13, it)
-    }
-
-    // 6. Make Array Consecutive
-    makeArrayConsecutive2(mutableListOf(6, 2, 3, 8)).let {
-        println(it)
-        assertEquals(3, it)
-    }
-
-    // 7. Almost Increasing Sequence
-    almostIncreasingSequence(mutableListOf(1, 3, 2, 1)).let {
-        println(it)
-        assertEquals(false, it)
-    }
-
-    // 8. Matrix Elements Sum
-    matrixElementsSum(mutableListOf(
-            mutableListOf(0, 1, 1, 2),
-            mutableListOf(0, 5, 0, 0),
-            mutableListOf(2, 0, 3, 3))).let {
-        println(it)
-        assertEquals(9, it)
-    }
-}
+package intro
 
 // 4. Adjacent Elements Product
 // Given an array of integers, find the pair of adjacent
@@ -58,7 +21,7 @@ fun adjacentElementsProduct(inputArray: MutableList<Int>): Int {
 //                   #           ###
 //                                #
 //
-fun shapeArea(n: Int): Int = if (n == 1) 1 else { (n - 1) * 4 + shapeArea(n - 1)  }
+fun shapeArea(n: Int): Int = if (n == 1) 1 else { (n - 1) * 4 + shapeArea(n - 1) }
 
 // 6. Make Array Consecutive
 // Ratiorg got statues of different sizes as a present from CodeMaster for his birthday,
