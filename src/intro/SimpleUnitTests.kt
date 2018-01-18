@@ -113,4 +113,79 @@ fun main(args: Array<String>) {
         println(it)
         assertEquals(true, it)
     }
+
+    // 19. Are Equally Strong
+    areEquallyStrong(10, 15, 15, 10).let {
+        println(it)
+        assertEquals(true, it)
+    }
+
+    // 20. Array Maximal Adjacent Difference
+    arrayMaximalAdjacentDifference(mutableListOf(2, 4, 1, 0)).let {
+        println(it)
+        assertEquals(3, it)
+    }
+
+    // 21. Is IPv4 Address
+    isIPv4Address("172.16.254.1").let {
+        println(it)
+        assertEquals(true, it)
+    }
+
+    // 22. Avoid Obstacles
+    avoidObstacles(mutableListOf(5, 3, 6, 7, 9)).let {
+        println(it)
+        assertEquals(4, it)
+    }
+
+    // 23. Box Blur
+    boxBlur(mutableListOf(
+            mutableListOf(1, 1, 1),
+            mutableListOf(1, 7, 1),
+            mutableListOf(1, 1, 1))).let {
+        println(it)
+        assertEquals(mutableListOf(mutableListOf(1)), it)
+    }
+
+    // 24. Minesweeper
+    minesweeper(mutableListOf(
+            mutableListOf(true, false, false),
+            mutableListOf(false, true, false),
+            mutableListOf(false, false, false))).let {
+        println(it)
+        assertEquals(mutableListOf(
+                mutableListOf(1, 2, 1),
+                mutableListOf(2, 1, 1),
+                mutableListOf(1, 1, 1)), it)
+    }
+
+    // 25. Array Replace
+    arrayReplace(mutableListOf(1, 2, 1), 1, 3).let {
+        println(it)
+        assertEquals(mutableListOf(3, 2, 3), it)
+    }
+
+    // 26. Even Digits Only
+    evenDigitsOnly(248622).let {
+        println(it)
+        assertEquals(true, it)
+    }
+
+    // 27. Variable Name
+    variableName("var_1__Int").let {
+        println(it)
+        assertEquals(true, it)
+    }
+
+    // 28. Alphabetic Shift
+    alphabeticShift("crazy").let {
+        println(it)
+        assertEquals("dsbaz", it)
+    }
+
+    // 29. Chess Board Cell Color
+    chessBoardCellColor("A1", "C3").let {
+        println(it)
+        assertEquals(true, it)
+    }
 }
