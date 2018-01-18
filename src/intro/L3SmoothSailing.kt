@@ -1,38 +1,4 @@
-import kotlin.test.assertEquals
-
-
-fun main(args: Array<String>) {
-
-    // 9. All Longest Strings
-    allLongestStrings(mutableListOf("aba", "aa", "ad", "vcd", "aba")).let {
-        println(it)
-        assertEquals(listOf("aba","vcd","aba"), it)
-    }
-
-    // 10. Common Character Count
-    commonCharacterCount("aabcc", "adcaa").let {
-        println(it)
-        assertEquals(3, it)
-    }
-
-    // 11. Is Lucky
-    isLucky(1230).let {
-        println(it)
-        assertEquals(true, it)
-    }
-
-    // 12. Sort By Height
-    sortByHeight(mutableListOf(-1, 150, 190, 170, -1, -1, 160, 180)).let {
-        println(it)
-        assertEquals(listOf(-1, 150, 160, 170, -1, -1, 180, 190), it)
-    }
-
-    // 13. Reverse Parentheses
-    reverseParentheses("Code(Cha(lle)nge)").let {
-        println(it)
-        assertEquals("CodeegnlleahC", it)
-    }
-}
+package intro
 
 // 9. All Longest Strings
 // Given an array of strings, return another array containing all of its longest strings.
@@ -64,9 +30,7 @@ fun isLucky(n: Int): Boolean {
 // Some people are standing in a row in a park. There are trees between them which cannot be moved. (-1)
 // Your task is to rearrange the people by their heights in a non-descending order without moving the trees.
 fun sortByHeight(a: MutableList<Int>): List<Int> {
-    return with (a.filter { it != -1 }.sorted().iterator()) {
-        a.map { if(it == -1) -1 else -2 }.map { if(it == -1) -1 else next() }
-    }
+    return with (a.filter { it != -1 }.sorted().iterator()) { a.map { if(it == -1) -1 else next() } }
 }
 
 // 13. Reverse Parentheses

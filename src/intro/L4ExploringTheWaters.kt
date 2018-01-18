@@ -1,38 +1,4 @@
-import kotlin.test.assertEquals
-
-
-fun main(args: Array<String>) {
-
-    // 14. Alternating Sums
-    alternatingSums(mutableListOf(50, 60, 60, 45, 70)).let {
-        println(it)
-        assertEquals(listOf(180, 105), it)
-    }
-
-    // 15. Add Boarder
-    addBorder(mutableListOf("abc", "ded")).let {
-        println(it)
-        assertEquals(mutableListOf("*****","*abc*","*ded*","*****"), it)
-    }
-
-    // 16. Are Similar
-    areSimilar(mutableListOf(1, 2, 3), mutableListOf(2, 1, 3)).let {
-        println(it)
-        assertEquals(true, it)
-    }
-
-    // 17. Array Change
-    arrayChange(mutableListOf(1, 1, 1)).let {
-        println(it)
-        assertEquals(3, it)
-    }
-
-    // 18. Palindrome Rearranging
-    palindromeRearranging("abbcabb").let {
-        println(it)
-        assertEquals(true, it)
-    }
-}
+package intro
 
 // 14. Alternating Sums
 // Several people are standing in a row and need to be divided into two teams.
@@ -46,7 +12,7 @@ fun alternatingSums(a: MutableList<Int>): MutableList<Int> {
 }
 
 // 15. Add Boarder
-// Given a rectangular matrix of characters, add a border of asterisks(*) to it.
+// Given a rectangular matrix of characters, intro.add a border of asterisks(*) to it.
 fun addBorder(picture: MutableList<String>): MutableList<String> {
     return with ((1..picture[0].length + 2).map { "*" }.joinToString("")) {
         picture.map { "*$it*" }.toMutableList().also {
