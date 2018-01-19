@@ -188,4 +188,28 @@ fun main(args: Array<String>) {
         println(it)
         assertEquals(true, it)
     }
+
+    // 30. Circle of Numbers
+    circleOfNumbers(10, 2).let {
+        println(it)
+        assertEquals(7, it)
+    }
+
+    // 31. Deposit Profit
+    depositProfit(100, 20, 170).let {
+        println(it)
+        assertEquals(3, it)
+    }
+
+    // 32. Absolute Values Sum Minimization
+    absoluteValuesSumMinimization(mutableListOf(2, 4, 7)).let {
+        println(it)
+        assertEquals(4, it)
+    }
+
+    // 33. Strings Rearrangement
+    stringsRearrangement(mutableListOf("ab", "bb", "aa")).let {
+        println(it)
+        assertEquals(true, it)
+    }
 }
