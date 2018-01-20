@@ -212,4 +212,28 @@ fun main(args: Array<String>) {
         println(it)
         assertEquals(true, it)
     }
+
+    // 34. Extract Each Kth
+    extractEachKth(mutableListOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10), 3).let {
+        println(it)
+        assertEquals(mutableListOf(1, 2, 4, 5, 7, 8, 10), it)
+    }
+
+    // 35. First Digit
+    firstDigit("var_1__Int").let {
+        println(it)
+        assertEquals('1', it)
+    }
+
+    // 36. Different Symbols Naive
+    differentSymbolsNaive("cabca").let {
+        println(it)
+        assertEquals(3, it)
+    }
+
+    // 37. Array Max Consecutive Sum
+    arrayMaxConsecutiveSum(mutableListOf(2, 3, 5, 1, 6), 2).let {
+        println(it)
+        assertEquals(8, it)
+    }
 }
