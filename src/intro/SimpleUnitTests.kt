@@ -236,4 +236,35 @@ fun main(args: Array<String>) {
         println(it)
         assertEquals(8, it)
     }
+
+    // 38. Growing Plant
+    growingPlant(100, 10, 910).let {
+        println(it)
+        assertEquals(10, it)
+    }
+
+    // 39. Knapsack Light
+    knapsackLight(10, 5, 6, 4, 8).let {
+        println(it)
+        assertEquals(10, it)
+    }
+
+    // 40. Longest Digits Prefix
+    longestDigitsPrefix("123aa1").let {
+        println(it)
+        assertEquals("123", it)
+    }
+
+    // 41. Digit Degree
+    digitDegree(91).let {
+        println(it)
+        assertEquals(2, it)
+    }
+
+    // 42. Bishop and Pawn
+    bishopAndPawn("a1", "c3").let {
+        println(it)
+        assertEquals(true, it)
+    }
+
 }
