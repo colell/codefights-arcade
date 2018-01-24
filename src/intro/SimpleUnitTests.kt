@@ -292,5 +292,9 @@ fun main(args: Array<String>) {
     }
 
 
-    // 47.
+    // 47. Is MAC48 Address
+    isMAC48Address("00-1B-63-84-45-E6").let {
+        println(it)
+        assertEquals(true, it)
+    }
 }
