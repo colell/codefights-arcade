@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9277f7ab-b290-4b80-a489-46eb6964eed9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/intro/L10EruptionOfLight.kt" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/intro/L1TheJourneyBegins.kt" afterPath="$PROJECT_DIR$/src/intro/L01TheJourneyBegins.kt" />
-      <change beforePath="$PROJECT_DIR$/src/intro/L2EdgeOfTheOcean.kt" afterPath="$PROJECT_DIR$/src/intro/L02EdgeOfTheOcean.kt" />
-      <change beforePath="$PROJECT_DIR$/src/intro/L3SmoothSailing.kt" afterPath="$PROJECT_DIR$/src/intro/L03SmoothSailing.kt" />
-      <change beforePath="$PROJECT_DIR$/src/intro/L4ExploringTheWaters.kt" afterPath="$PROJECT_DIR$/src/intro/L04ExploringTheWaters.kt" />
-      <change beforePath="$PROJECT_DIR$/src/intro/L5IslandOfKnowledge.kt" afterPath="$PROJECT_DIR$/src/intro/L05IslandOfKnowledge.kt" />
-      <change beforePath="$PROJECT_DIR$/src/intro/L6RainsOfReason.kt" afterPath="$PROJECT_DIR$/src/intro/L06RainsOfReason.kt" />
-      <change beforePath="$PROJECT_DIR$/src/intro/L7ThroughTheFog.kt" afterPath="$PROJECT_DIR$/src/intro/L07ThroughTheFog.kt" />
-      <change beforePath="$PROJECT_DIR$/src/intro/L8DivingDeeper.kt" afterPath="$PROJECT_DIR$/src/intro/L08DivingDeeper.kt" />
-      <change beforePath="$PROJECT_DIR$/src/intro/L9DarkWilderness.kt" afterPath="$PROJECT_DIR$/src/intro/L09DarkWilderness.kt" />
       <change beforePath="$PROJECT_DIR$/src/intro/SimpleUnitTests.kt" afterPath="$PROJECT_DIR$/src/intro/SimpleUnitTests.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,21 +15,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SimpleUnitTests.kt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SimpleUnitTests.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/intro/SimpleUnitTests.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="838">
-              <caret line="290" column="27" lean-forward="false" selection-start-line="290" selection-start-column="27" selection-end-line="290" selection-end-column="27" />
+            <state relative-caret-position="957">
+              <caret line="297" column="30" lean-forward="false" selection-start-line="297" selection-start-column="30" selection-end-line="297" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="L10EruptionOfLight.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="L10EruptionOfLight.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/intro/L10EruptionOfLight.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+            <state relative-caret-position="867">
+              <caret line="51" column="6" lean-forward="false" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -81,8 +71,8 @@
         <option value="$PROJECT_DIR$/src/intro/L7ThroughTheFog.kt" />
         <option value="$PROJECT_DIR$/src/intro/L8DivingDeeper.kt" />
         <option value="$PROJECT_DIR$/src/intro/L9DarkWilderness.kt" />
-        <option value="$PROJECT_DIR$/src/intro/SimpleUnitTests.kt" />
         <option value="$PROJECT_DIR$/src/intro/L10EruptionOfLight.kt" />
+        <option value="$PROJECT_DIR$/src/intro/SimpleUnitTests.kt" />
       </list>
     </option>
   </component>
@@ -277,10 +267,11 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24790308" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24790308" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991612" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -291,7 +282,6 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -513,18 +503,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/intro/SimpleUnitTests.kt">
+    <entry file="file://$PROJECT_DIR$/src/intro/L10EruptionOfLight.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="838">
-          <caret line="290" column="27" lean-forward="false" selection-start-line="290" selection-start-column="27" selection-end-line="290" selection-end-column="27" />
+        <state relative-caret-position="867">
+          <caret line="51" column="6" lean-forward="false" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/intro/L10EruptionOfLight.kt">
+    <entry file="file://$PROJECT_DIR$/src/intro/SimpleUnitTests.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        <state relative-caret-position="957">
+          <caret line="297" column="30" lean-forward="false" selection-start-line="297" selection-start-column="30" selection-end-line="297" selection-end-column="30" />
           <folding />
         </state>
       </provider>
