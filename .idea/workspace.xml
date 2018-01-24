@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9277f7ab-b290-4b80-a489-46eb6964eed9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/codefights-arcade/intro/L9DarkWildernessKt.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/intro/L9DarkWilderness.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/intro/L10EruptionOfLight.kt" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/codefights-arcade/META-INF/codefights-arcade.kotlin_module" afterPath="$PROJECT_DIR$/out/production/codefights-arcade/META-INF/codefights-arcade.kotlin_module" />
-      <change beforePath="$PROJECT_DIR$/out/production/codefights-arcade/intro/SimpleUnitTestsKt.class" afterPath="$PROJECT_DIR$/out/production/codefights-arcade/intro/SimpleUnitTestsKt.class" />
+      <change beforePath="$PROJECT_DIR$/src/intro/L1TheJourneyBegins.kt" afterPath="$PROJECT_DIR$/src/intro/L01TheJourneyBegins.kt" />
+      <change beforePath="$PROJECT_DIR$/src/intro/L2EdgeOfTheOcean.kt" afterPath="$PROJECT_DIR$/src/intro/L02EdgeOfTheOcean.kt" />
+      <change beforePath="$PROJECT_DIR$/src/intro/L3SmoothSailing.kt" afterPath="$PROJECT_DIR$/src/intro/L03SmoothSailing.kt" />
+      <change beforePath="$PROJECT_DIR$/src/intro/L4ExploringTheWaters.kt" afterPath="$PROJECT_DIR$/src/intro/L04ExploringTheWaters.kt" />
+      <change beforePath="$PROJECT_DIR$/src/intro/L5IslandOfKnowledge.kt" afterPath="$PROJECT_DIR$/src/intro/L05IslandOfKnowledge.kt" />
+      <change beforePath="$PROJECT_DIR$/src/intro/L6RainsOfReason.kt" afterPath="$PROJECT_DIR$/src/intro/L06RainsOfReason.kt" />
+      <change beforePath="$PROJECT_DIR$/src/intro/L7ThroughTheFog.kt" afterPath="$PROJECT_DIR$/src/intro/L07ThroughTheFog.kt" />
+      <change beforePath="$PROJECT_DIR$/src/intro/L8DivingDeeper.kt" afterPath="$PROJECT_DIR$/src/intro/L08DivingDeeper.kt" />
+      <change beforePath="$PROJECT_DIR$/src/intro/L9DarkWilderness.kt" afterPath="$PROJECT_DIR$/src/intro/L09DarkWilderness.kt" />
       <change beforePath="$PROJECT_DIR$/src/intro/SimpleUnitTests.kt" afterPath="$PROJECT_DIR$/src/intro/SimpleUnitTests.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,18 +28,18 @@
       <file leaf-file-name="SimpleUnitTests.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/intro/SimpleUnitTests.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="708">
-              <caret line="266" column="30" lean-forward="false" selection-start-line="266" selection-start-column="30" selection-end-line="266" selection-end-column="30" />
+            <state relative-caret-position="838">
+              <caret line="290" column="27" lean-forward="false" selection-start-line="290" selection-start-column="27" selection-end-line="290" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="L9DarkWilderness.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/intro/L9DarkWilderness.kt">
+      <file leaf-file-name="L10EruptionOfLight.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/intro/L10EruptionOfLight.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+            <state relative-caret-position="136">
+              <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -77,13 +82,14 @@
         <option value="$PROJECT_DIR$/src/intro/L8DivingDeeper.kt" />
         <option value="$PROJECT_DIR$/src/intro/L9DarkWilderness.kt" />
         <option value="$PROJECT_DIR$/src/intro/SimpleUnitTests.kt" />
+        <option value="$PROJECT_DIR$/src/intro/L10EruptionOfLight.kt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="125" />
-    <option name="y" value="-14" />
-    <option name="width" value="1400" />
+    <option name="x" value="384" />
+    <option name="y" value="-8" />
+    <option name="width" value="877" />
     <option name="height" value="1177" />
   </component>
   <component name="ProjectView">
@@ -101,6 +107,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -124,17 +132,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Kotlin\codefights-arcade\src\intro" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Kotlin\codefights-arcade\src\intro" />
       <recent name="C:\Kotlin\codefights-arcade\src" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Kotlin\codefights-arcade\src\intro" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -193,13 +199,13 @@
     </configuration>
     <configuration name="intro.SimpleUnitTestsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="intro.SimpleUnitTestsKt" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="intro.SimpleUnitTestsKt" />
+      <option name="WORKING_DIRECTORY" />
       <module name="codefights-arcade" />
       <envs />
     </configuration>
@@ -267,15 +273,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1186" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24790308" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991612" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991612" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -285,6 +291,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -300,43 +307,70 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/intro/L1TheJourneyBegins.kt">
+    <entry file="file://$PROJECT_DIR$/src/intro/SimpleUnitTests.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4522">
+          <caret line="266" column="30" lean-forward="false" selection-start-line="266" selection-start-column="30" selection-end-line="266" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/intro/L09DarkWilderness.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="28" lean-forward="false" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/intro/SimpleUnitTests.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4522">
+          <caret line="266" column="30" lean-forward="false" selection-start-line="266" selection-start-column="30" selection-end-line="266" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/intro/L09DarkWilderness.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/intro/L01TheJourneyBegins.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/intro/L2EdgeOfTheOcean.kt">
+    <entry file="file://$PROJECT_DIR$/src/intro/L02EdgeOfTheOcean.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
           <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/intro/L5IslandOfKnowledge.kt">
+    <entry file="file://$PROJECT_DIR$/src/intro/L05IslandOfKnowledge.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1496">
           <caret line="88" column="0" lean-forward="true" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/intro/L6RainsOfReason.kt">
+    <entry file="file://$PROJECT_DIR$/src/intro/L06RainsOfReason.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="37" column="1" lean-forward="false" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/intro/L3SmoothSailing.kt">
+    <entry file="file://$PROJECT_DIR$/src/intro/L03SmoothSailing.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -352,15 +386,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/intro/L4ExploringTheWaters.kt">
+    <entry file="file://$PROJECT_DIR$/src/intro/L04ExploringTheWaters.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -368,7 +400,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28492">
           <caret line="1676" column="34" lean-forward="false" selection-start-line="1676" selection-start-column="34" selection-end-line="1676" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -377,7 +408,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -387,7 +417,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28492">
           <caret line="1676" column="34" lean-forward="false" selection-start-line="1676" selection-start-column="34" selection-end-line="1676" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -398,60 +427,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/intro/L3SmoothSailing.kt">
+    <entry file="file://$PROJECT_DIR$/src/intro/L03SmoothSailing.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/intro/L4ExploringTheWaters.kt">
+    <entry file="file://$PROJECT_DIR$/src/intro/L04ExploringTheWaters.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/intro/L1TheJourneyBegins.kt">
+    <entry file="file://$PROJECT_DIR$/src/intro/L01TheJourneyBegins.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/intro/L2EdgeOfTheOcean.kt">
+    <entry file="file://$PROJECT_DIR$/src/intro/L02EdgeOfTheOcean.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
           <caret line="46" column="1" lean-forward="false" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/intro/L5IslandOfKnowledge.kt">
+    <entry file="file://$PROJECT_DIR$/src/intro/L05IslandOfKnowledge.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1496">
           <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="102">
             <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -459,46 +481,50 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/intro/L6RainsOfReason.kt">
+    <entry file="file://$PROJECT_DIR$/src/intro/L06RainsOfReason.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="37" column="1" lean-forward="false" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/intro/L7ThroughTheFog.kt">
+    <entry file="file://$PROJECT_DIR$/src/intro/L07ThroughTheFog.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="30" column="18" lean-forward="false" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/intro/L8DivingDeeper.kt">
+    <entry file="file://$PROJECT_DIR$/src/intro/L08DivingDeeper.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/intro/L09DarkWilderness.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/intro/SimpleUnitTests.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="708">
-          <caret line="266" column="30" lean-forward="false" selection-start-line="266" selection-start-column="30" selection-end-line="266" selection-end-column="30" />
+        <state relative-caret-position="838">
+          <caret line="290" column="27" lean-forward="false" selection-start-line="290" selection-start-column="27" selection-end-line="290" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/intro/L9DarkWilderness.kt">
+    <entry file="file://$PROJECT_DIR$/src/intro/L10EruptionOfLight.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+        <state relative-caret-position="136">
+          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
           <folding />
         </state>
       </provider>

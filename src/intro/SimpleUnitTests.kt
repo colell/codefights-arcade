@@ -267,4 +267,30 @@ fun main(args: Array<String>) {
         assertEquals(true, it)
     }
 
+    // 43. Is Beautiful String
+    isBeautifulString("bbbaacdafe").let {
+        println(it)
+        assertEquals(true, it)
+    }
+
+    // 44. Find Email Domain
+    findEmailDomain("prettyandsimple@example.com").let {
+        println(it)
+        assertEquals("example.com", it)
+    }
+
+    // 45. Build Palindrome
+    buildPalindrome("abcdc").let {
+        println(it)
+        assertEquals("abcdcba", it)
+    }
+
+    // 46. Election Winners
+    electionsWinners(mutableListOf(2, 3, 5, 2), 3).let {
+        println(it)
+        assertEquals(2, it)
+    }
+
+
+    // 47.
 }
