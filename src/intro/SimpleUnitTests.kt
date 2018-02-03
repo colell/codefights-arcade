@@ -297,4 +297,28 @@ fun main(args: Array<String>) {
         println(it)
         assertEquals(true, it)
     }
+
+    // 48. Is Digit
+    isDigit('0').let {
+        println(it)
+        assertEquals(true, it)
+    }
+
+    // 49. Line Encoding
+    lineEncoding("aabbbc").let {
+        println(it)
+        assertEquals("2a3bc", it)
+    }
+
+    // 50. Chess Knight
+    chessKnight("a1").let {
+        println(it)
+        assertEquals(2, it)
+    }
+
+    // 51. Delete Digit
+    deleteDigit(152).let {
+        println(it)
+        assertEquals(52, it)
+    }
 }
