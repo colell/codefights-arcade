@@ -321,4 +321,75 @@ fun main(args: Array<String>) {
         println(it)
         assertEquals(52, it)
     }
+
+    // 52. Longest Word
+    longestWord("Ready, steady, go!").let {
+        println(it)
+        assertEquals("steady", it)
+    }
+
+    // 53. Valid Time
+    validTime("13:58").let {
+        print(it)
+        assertEquals(true, it)
+    }
+
+    // 54. Sum Up Numbers
+    sumUpNumbers("2 apples, 12 oranges").let {
+        print(it)
+        assertEquals(14, it)
+    }
+
+    // 55. Different Squares
+    differentSquares(mutableListOf(
+            mutableListOf(1, 2, 1),
+            mutableListOf(2, 2, 2),
+            mutableListOf(2, 2, 2),
+            mutableListOf(1, 2, 3),
+            mutableListOf(2, 2, 1))).let {
+        println(it)
+        assertEquals(6, it)
+    }
+
+    // 56. Digits Product
+    digitsProduct(12).let {
+        println(it)
+        assertEquals(26, it)
+    }
+
+    // 57. File Naming
+    fileNaming(mutableListOf("doc", "doc", "image", "doc(1)", "doc")).let {
+        println(it)
+        assertEquals(mutableListOf("doc", "doc(1)", "image", "doc(1)(1)", "doc(2)"), it)
+    }
+
+    // 58. Message From Binary Code
+    messageFromBinaryCode("010010000110010101101100011011000110111100100001").let {
+        println(it)
+        assertEquals("Hello!", it)
+    }
+
+    // 59. Spiral Numbers
+    spiralNumbers(3).let {
+        println(it)
+        assertEquals(mutableListOf(
+                mutableListOf(1, 2, 3),
+                mutableListOf(8, 9, 4),
+                mutableListOf(7, 6, 5)), it)
+    }
+
+    // 60. Sudoku
+    sudoku(mutableListOf(
+            mutableListOf(1,3,2,5,4,6,9,8,7),
+            mutableListOf(4,6,5,8,7,9,3,2,1),
+            mutableListOf(7,9,8,2,1,3,6,5,4),
+            mutableListOf(9,2,1,4,3,5,8,7,6),
+            mutableListOf(3,5,4,7,6,8,2,1,9),
+            mutableListOf(6,8,7,1,9,2,5,4,3),
+            mutableListOf(5,7,6,9,8,1,4,3,2),
+            mutableListOf(2,4,3,6,5,7,1,9,8),
+            mutableListOf(8,1,9,3,2,4,7,6,5))).let {
+        println(it)
+        assertEquals(true, it)
+    }
 }
